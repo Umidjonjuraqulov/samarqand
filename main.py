@@ -56,11 +56,18 @@ def show_landmarks_page():
         Ulug‘bek Rasadxonasi XV asrda qurilgan va o‘z davrining eng yirik astronomik markazi bo‘lgan. 
         Bu yerda Ulug‘bek tomonidan ko‘plab ilmiy tadqiqotlar o‘tkazilgan.
         """)
-
+def about():
+    st.header("Annakulov Elbek 403-guruh")
+    st.image("elbek.jpg", caption="Registon Maydoni")
+    st.write("""
+    
+        """)
 # Navigatsiya
-page = st.sidebar.selectbox("Sahifani tanlang", ["Samarqand tarixi", "Mashhur obidalar"])
+page = st.sidebar.selectbox("Sahifani tanlang", ["Samarqand tarixi", "Mashhur obidalar", "Men haqimda"])
 
 if page == "Samarqand tarixi":
     show_history_page()
 elif page == "Mashhur obidalar":
     show_landmarks_page()
+elif page == "Men haqimda":
+    about()
