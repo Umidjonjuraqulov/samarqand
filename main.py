@@ -34,7 +34,7 @@ def show_landmarks_page():
 
     with tab1:
         st.header("Registon Maydoni")
-        st.image("images/registan.jpg", caption="Registon Maydoni")
+        st.image("https://avatars.mds.yandex.net/i?id=985128b6cebc0e60d81e149766d3681b101d5941-4256731-images-thumbs&n=13", caption="Registon Maydoni")
         st.write("""
         Registon – Samarqandning yuragi bo‘lib, uchta ulkan madrasadan iborat. 
         Ular XVI–XVII asrlarda qurilgan va o‘zining ajoyib arxitekturasi bilan mashhur. 
@@ -43,7 +43,7 @@ def show_landmarks_page():
 
     with tab2:
         st.header("Shohi Zinda")
-        st.image("images/shohi_zinda.jpg", caption="Shohi Zinda Majmuasi")
+        st.image("https://avatars.mds.yandex.net/i?id=f0cfaa700a99b1178d3109e661088b0826ea8941-10748854-images-thumbs&n=13", caption="Shohi Zinda Majmuasi")
         st.write("""
         Shohi Zinda – Samarqanddagi eng qadimiy majmualardan biri bo‘lib, unda XIV-XV asrlarda qurilgan maqbaralar joylashgan. 
         Bu joy Islom dunyosida muqaddas maskanlardan biri hisoblanadi.
@@ -51,7 +51,7 @@ def show_landmarks_page():
 
     with tab3:
         st.header("Ulug‘bek Rasadxonasi")
-        st.image("images/ulugbek_rasadxonasi.jpg", caption="Ulug‘bek Rasadxonasi")
+        st.image("https://avatars.mds.yandex.net/i?id=293b75f42049024139114d2ace971eccfeb382cf-10640295-images-thumbs&n=13", caption="Ulug‘bek Rasadxonasi")
         st.write("""
         Ulug‘bek Rasadxonasi XV asrda qurilgan va o‘z davrining eng yirik astronomik markazi bo‘lgan. 
         Bu yerda Ulug‘bek tomonidan ko‘plab ilmiy tadqiqotlar o‘tkazilgan.
