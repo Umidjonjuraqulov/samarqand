@@ -28,9 +28,34 @@ Hozirgi kunda Samarqand YuNESKOning Jahon merosi ro‘yxatiga kiritilgan bo‘li
 # Page 2: Mashhur obidalar
 def show_landmarks_page():
     st.title("Samarqandning Mashhur Obidalari")
-    st.write("Samarqandda ko‘plab tarixiy obidalar mavjud, jumladan:")
-    st.image("https://7d9e88a8-f178-4098-bea5-48d960920605.selcdn.net/55526e78-4c2d-44d5-b974-99af51df9864/-/resize/x600/-/quality/smart_retina/", caption="Registon maydoni")
-    st.image("https://avatars.mds.yandex.net/i?id=3dd3885bab35bd5272dceedff69be4e4_l-12605172-images-thumbs&n=13", caption="Shohi Zinda majmuasi")
+    
+    # Tabs yaratish
+    tab1, tab2, tab3 = st.tabs(["Registon Maydoni", "Shohi Zinda", "Ulug‘bek Rasadxonasi"])
+
+    with tab1:
+        st.header("Registon Maydoni")
+        st.image("images/registan.jpg", caption="Registon Maydoni")
+        st.write("""
+        Registon – Samarqandning yuragi bo‘lib, uchta ulkan madrasadan iborat. 
+        Ular XVI–XVII asrlarda qurilgan va o‘zining ajoyib arxitekturasi bilan mashhur. 
+        Registon qadimda shaharning asosiy maydoni bo‘lgan.
+        """)
+
+    with tab2:
+        st.header("Shohi Zinda")
+        st.image("images/shohi_zinda.jpg", caption="Shohi Zinda Majmuasi")
+        st.write("""
+        Shohi Zinda – Samarqanddagi eng qadimiy majmualardan biri bo‘lib, unda XIV-XV asrlarda qurilgan maqbaralar joylashgan. 
+        Bu joy Islom dunyosida muqaddas maskanlardan biri hisoblanadi.
+        """)
+
+    with tab3:
+        st.header("Ulug‘bek Rasadxonasi")
+        st.image("images/ulugbek_rasadxonasi.jpg", caption="Ulug‘bek Rasadxonasi")
+        st.write("""
+        Ulug‘bek Rasadxonasi XV asrda qurilgan va o‘z davrining eng yirik astronomik markazi bo‘lgan. 
+        Bu yerda Ulug‘bek tomonidan ko‘plab ilmiy tadqiqotlar o‘tkazilgan.
+        """)
 
 # Navigatsiya
 page = st.sidebar.selectbox("Sahifani tanlang", ["Samarqand tarixi", "Mashhur obidalar"])
