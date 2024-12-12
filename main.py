@@ -2,7 +2,8 @@ import streamlit as st
 
 def show_history_page():
     st.title("Samarqand Shahri Tarixi")
-    st.write("""Samarqand – dunyodagi eng qadimiy shaharlaridan biri bo‘lib, uning tarixi 2750 yildan oshadi. Bu shahar Markaziy Osiyoning ilmiy, madaniy va savdo markazi sifatida tarixda chuqur iz qoldirgan.
+    st.write(
+        """Samarqand – dunyodagi eng qadimiy shaharlaridan biri bo‘lib, uning tarixi 2750 yildan oshadi. Bu shahar Markaziy Osiyoning ilmiy, madaniy va savdo markazi sifatida tarixda chuqur iz qoldirgan.
 
 Qadimgi davrlar
 Samarqandning ilk poydevori eramizdan avvalgi VII asrlarda qo‘yilgan. U Sug‘diyona davlati tarkibida bo‘lib, qadimda “Marokanda” nomi bilan tanilgan. Samarqandning strategik joylashuvi uni Buyuk ipak yo‘lining muhim qismiga aylantirgan.
@@ -20,7 +21,8 @@ Rus imperiyasi va zamonaviy davr
 XIX asrda Samarqand Rossiya imperiyasi tarkibiga kirdi. Bu davrda shahar sanoat va infratuzilma rivoji jihatidan o‘zgarishlarga yuz tutdi. Bugungi kunda Samarqand – O‘zbekistonning eng mashhur tarixiy va sayyohlik shaharlaridan biri.
 
 Samarqandning bugungi ahamiyati
-Hozirgi kunda Samarqand YuNESKOning Jahon merosi ro‘yxatiga kiritilgan bo‘lib, ko‘plab sayyohlarni o‘ziga jalb qiladi. Shahar boy tarixi va maftunkor me’morchiligi bilan dunyo madaniy merosining ajralmas qismi hisoblanadi."")
+Hozirgi kunda Samarqand YuNESKOning Jahon merosi ro‘yxatiga kiritilgan bo‘lib, ko‘plab sayyohlarni o‘ziga jalb qiladi. Shahar boy tarixi va maftunkor me’morchiligi bilan dunyo madaniy merosining ajralmas qismi hisoblanadi."""
+            )
     st.image("https://avatars.mds.yandex.net/i?id=dbe15ea2c155b98a9503f6ef8c4b213c546962dd-4236999-images-thumbs&n=13", caption="Samarqandning qadimiy surati")
 
 # Page 2: Mashhur obidalar
