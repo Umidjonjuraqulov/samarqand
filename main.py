@@ -51,7 +51,7 @@ def show_landmarks_page():
 
     with tab3:
         st.header("Ulug‘bek Rasadxonasi")
-        st.image("https://avatars.mds.yandex.net/i?id=293b75f42049024139114d2ace971eccfeb382cf-10640295-images-thumbs&n=13", caption="Ulug‘bek Rasadxonasi")
+        st.image("ulugbek.webp", caption="Ulug‘bek Rasadxonasi")
         st.write("""
         Ulug‘bek Rasadxonasi XV asrda qurilgan va o‘z davrining eng yirik astronomik markazi bo‘lgan. 
         Bu yerda Ulug‘bek tomonidan ko‘plab ilmiy tadqiqotlar o‘tkazilgan.
